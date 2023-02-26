@@ -8,8 +8,29 @@
     }
 }
 
-.rect1 {
+@keyframes red-to-blue-to-red {
+    0% {
+        background-color: #f00;
+    }
+
+    50% {
+        background-color: #00F;
+    }
+
+    100% {
+        background-color: #f00;
+    }
+}
+
+.rect {
     width: 200px;
     height: 200px;
+}
+
+.rect1 {
     animation: red-to-blue 5s infinite;
+}
+
+.rect2 {
+    animation: red-to-blue-to-red 5s infinite;
 }
