@@ -22,6 +22,20 @@
     }
 }
 
+@keyframes svg-red-to-blue-to-red {
+    0% {
+        fill: #f00;
+    }
+
+    50% {
+        fill: #00F;
+    }
+
+    100% {
+        fill: #f00;
+    }
+}
+
 .rect {
     width: 200px;
     height: 200px;
@@ -33,4 +47,8 @@
 
 .rect2 {
     animation: red-to-blue-to-red 5s infinite;
+}
+
+.rect3 {
+    animation: svg-red-to-blue-to-red 5s infinite;
 }
