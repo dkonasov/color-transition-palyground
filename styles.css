@@ -1,0 +1,15 @@
+@keyframes red-to-blue {
+    from {
+        background-color: #f00;
+    }
+
+    to {
+        background-color: #00F;
+    }
+}
+
+.rect1 {
+    width: 200px;
+    height: 200px;
+    animation: red-to-blue 5s infinite;
+}
